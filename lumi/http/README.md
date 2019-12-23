@@ -1,24 +1,24 @@
-#HTTP SERVER
+# HTTP SERVER
 
-##Build from source
+## Build from source
 
 ```
     ./build.sh
 ```
-##Run program
+## Run program
 ```
     ./httpserver
 ```
-##Method
-###Connect mosquitto broker
+## Method
+### Connect mosquitto broker
 ```
     GET http://localhost:8000/connect
 ```
-###Subscribe topic
+### Subscribe topic
 ```
     GET http://localhost:8000/connect/sub
 ```
-###Publish message
+### Publish message
 ```
     GET http://localhost:8000/connect/pub
 ```
