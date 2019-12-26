@@ -14,11 +14,11 @@
 ```
     GET http://localhost:8000/connect
 ```
-### Subscribe topic
+### Subscribe topic/pub and topic/sub
 ```
     GET http://localhost:8000/connect/sub
 ```
-### Publish message
+### Subscribe topic/sub Publish message "hi from local" to topic/sub
 ```
     GET http://localhost:8000/connect/pub
 ```
